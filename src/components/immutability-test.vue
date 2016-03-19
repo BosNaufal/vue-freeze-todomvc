@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Global State UI Typing : {{ state.ui.typing }}</p>
+    <p>State UI Typing : {{ state.ui.typing }}</p>
     <button @click="tryMutate">Try Direct Mutate!</button>
   </div>
 </template>
@@ -16,7 +16,7 @@
         this.state.ui.typing = !this.state.ui.typing
         console.log('Immutabillity Test',this.state.ui.typing); // true
 
-        // yet the global action will effect to our global state
+        // yet the global action will affects to our global state
         // this.$action('user:typing',true); // uncoment this
       },
     },

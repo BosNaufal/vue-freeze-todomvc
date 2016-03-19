@@ -2,7 +2,7 @@
 <template>
   <div>
     <input type="text" v-model="input" @keydown.enter="todoAdd"/>
-    <p class="status">{{ state.ui.typing ? 'User Typing....' : '' }}</p>
+    <p class="status">{{ state.ui.typing ? 'User Is Typing....' : '' }}</p>
   </div>
 </template>
 

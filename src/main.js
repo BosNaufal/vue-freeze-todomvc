@@ -1,6 +1,8 @@
 
 // Import the library
 import Vue from './lib/vue.js';
+
+// bind Vue Freeze
 import './lib/vue-freeze.min.js';
 
 // The State
