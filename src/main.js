@@ -10,11 +10,10 @@ import state from './vue-freeze/state.js';
 import action from './vue-freeze/action.js';
 
 // Debug mode
-Vue.debug = true
+Vue.config.debug = true
 
 // Install Vue Freeze
 Vue.use(VueFreeze, { state: state, action: action })
-
 
 // import components
 import todoApp from './components/todoApp.vue';

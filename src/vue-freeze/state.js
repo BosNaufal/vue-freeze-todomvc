@@ -1,11 +1,10 @@
 
 let ui = {
-	typing: false
+  typing: false
 }
 
 let todoApp = {
-	todos: [],
-	filter: 'all'
+  todos: [],
 }
 
 let state = { ui, todoApp }
